@@ -1,2 +1,2 @@
-# CSE40842Project2
-For CSE 40842
+# Smash-kell
+For CSE 40842 project 2
