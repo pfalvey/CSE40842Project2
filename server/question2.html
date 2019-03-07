@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body,h2 {font-family: "Times", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/smashBackground.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="bgimg w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <img src="/smashn64logoNEW.png">
+    </div>
+    <div class="w3-display-middle">
+        <h2 class="w3-animate-top">What's your favorite color?</h2>
+        <p class="w3-large w3-center">
+        <form action="/quiz/3" method="post">
+            <input type="radio" name="resp2" value="1" checked>Red<br>
+            <input type="radio" name="resp2" value="2">Green<br>
+            <input type="radio" name="resp2" value="3">Yellow<br>
+            <input type="radio" name="resp2" value="4">None, those are basic<br>
+            <input type="hidden" name="resp1" value="$R1">
+            <input type="submit" value="Submit">
+        </form>
+        </p>
+    </div>
+</div>
+</body>
+</html>

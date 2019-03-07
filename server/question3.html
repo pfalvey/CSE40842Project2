@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body,h2 {font-family: "Times", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/smashBackground.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="bgimg w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <img src="/smashn64logoNEW.png">
+    </div>
+    <div class="w3-display-middle">
+        <h2 class="w3-animate-top">Manny Pacquiao or Floyd Mayweather?</h2>
+        <p class="w3-large w3-center">
+        <form action="/quiz/4" method="post">
+            <input type="radio" name="resp3" value="1" checked>Waka waka<br>
+            <input type="radio" name="resp3" value="2">Money<br>
+            <input type="radio" name="resp3" value="3">Neither. I perfer my Golden Boy, Oscar De La Hoya<br>
+            <input type="hidden" name="resp1" value="$R1">
+            <input type="hidden" name="resp2" value="$R2">
+            <input type="submit" value="Submit">
+        </form>
+        </p>
+    </div>
+</div>
+</body>
+</html>

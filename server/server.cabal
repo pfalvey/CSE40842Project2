@@ -60,6 +60,13 @@ executable server
   build-depends:       base >=4.9 && <4.10
                        , scotty
                        , http-types
+                       , stm
+                       , mtl
+                       , data-default-class
+                       , text
+                       , containers
+                       , MissingH
+                       , wai-middleware-static
   
   -- Directories containing source files.
   -- hs-source-dirs:      
